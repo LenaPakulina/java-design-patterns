@@ -1,4 +1,4 @@
-package ru.design.livecoding.operation;
+package ru.livecoding.operation;
 
 /**
  * Пользователь

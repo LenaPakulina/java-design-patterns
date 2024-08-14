@@ -1,5 +1,7 @@
 package ru.design.creational.builder.ex1;
 
+import java.util.LinkedHashMap;
+
 public class User {
     private String name;
     private byte age;
@@ -35,6 +37,9 @@ public class User {
         }
 
         User build() {
+            LinkedHashMap<String, String> map = new LinkedHashMap<>();
+            StringBuilder y = new StringBuilder();
+            y.append(new String("fsdlfk"));
             User user = new User();
             user.name = name;
             user.age = age;
